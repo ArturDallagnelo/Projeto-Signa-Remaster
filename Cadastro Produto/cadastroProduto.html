@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Site</title>
+    </head>
+    
+    <body>
+
+        <label class="nome" for="marca">Marca*</label>
+        <input class="campo" type="text" id="marca" placeholder="Marca">
+
+        <label class="nome" for="SKU">SKU*</label>
+        <input class="campo" type="text" id="SKU" placeholder="SKU">
+
+        <label class="nome" for="modelo">Modelo*</label>
+        <input class="campo" type="text" id="modelo" placeholder="Modelo">
+
+        <label class="nome" for="tipo">Tipo*</label>
+        <input class="campo" type="text" id="tipo" placeholder="Tipo">
+
+        <label class="nome" for="preco">Preço*</label>
+        <input class="campo" type="number" id="preco" placeholder="Preço">
+
+        <label class="nome" for="qtdparcelas">Parcelas*</label>
+        <input class="campo" type="number" id="qtdparcelas" placeholder="Parcelas">
+
+        <label class="campo" for="mao">Mão</label>
+        <select class="campo" id="mao">
+            <option value="rh">Destro</option>
+            <option value="lh">Canhoto</option>
+        </select>
+
+        <label class="nome" for="libragem">Libragem*</label>
+        <input class="campo" type="text" id="libragem" placeholder="Libragem">
+
+        <label class="nome" for="cor">Cor*</label>
+        <input class="campo" type="text" id="cor" placeholder="Cor">
+
+        <label class="nome" for="qtdEstoque">Estoque*</label>
+        <input class="campo" type="number" id="qtdEstoque" placeholder="Estoque">
+
+        <label class="nome" for="descricao">Descrição*</label>
+        <textarea class="campo" id="descricao">
+
+        </textarea>
+
+        <label class="nome" for="imagem">Imagem</label>
+        <input class="campo" type="file" id="imagem">
+
+        <input class="botao" type="button" value="cadastrar" onclick="redirecionar()">
+    </body>
+    <script src="Js/cadastroProduto.js"></script>
+</html>
